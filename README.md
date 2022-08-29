@@ -33,9 +33,7 @@ createdb trivia
 From the backend folder in terminal, Populate the database using the trivia.psql file provided.run:
 psql trivia < trivia.psql
 3. Install Dependencies
-Once your virtual environment is setup and running, install the required dependencies by navigating to the /backend directory and running:
-
-pip install -r requirements.txt
+Once your virtual environment is setup and running, install the required dependencies by navigating to the /backend directory and running: pip install -r requirements.txt
 4. Start the Server
 Start the Server
 
@@ -408,8 +406,8 @@ The API returns errors as JSON objects in the following format:
 
 Below are some of the error types returned when the requests fail:
 
-400: Bad Request
-404: Resource Not Found
-405: Method Not Allowed
-422: Unprocessable resource
-500: Internal Server Error
+- 400: Bad Request
+- 404: Resource Not Found
+- 405: Method Not Allowed
+- 422: Unprocessable resource
+- 500: Internal Server Error
